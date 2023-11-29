@@ -1,0 +1,141 @@
+*{
+  cursor: wait;
+}
+
+body{
+  background-image: url("logo.gif"),url("clouds.jpeg");
+  background-size: 30%, cover, cover;
+  background-position: center bottom 400px, top;
+  background-repeat: no-repeat,repeat;
+  height: 100vh;
+  margin-bottom: 100px;
+    }
+
+a{
+text-decoration:none;
+}
+
+
+.header{
+  width:100%;
+  margin: auto;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+    transition-property:transform;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+.title:hover{
+  transform: scale(1.01);
+}
+
+.tabs{
+  position: absolute;top:110px;
+}
+
+.Contact{
+  margin-right:40px;
+  width:150px;
+  transition-property:transform;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.Contact:hover{
+  transform: scale(1.05);
+}
+.Gallery{
+width:150px;
+transition-property:transform;
+transition-duration: .1s;
+transition-timing-function: linear;
+}
+
+.Gallery:hover{
+  transform: scale(1.05);
+}
+}
+.Merch{
+  width:300px;
+}
+
+.clothes{
+  position: relative;top:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.holder:hover{
+  position: relative;bottom:10px;
+transform:scale(1.25);
+}
+
+.holder{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  margin-right: auto;
+  margin-left: 50px;
+  transition-property:transform;
+  transition-duration: .25s;
+  transition-timing-function: linear;
+}
+
+.Merch{
+  width: 200px;
+}
+
+a{
+  color:white;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+.flag{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding-top: 30px;
+}
+
+.Cart{
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+
+.formcontainer{
+  position:absolute;top:300px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width:100%;
+
+}
+
+.formcontent{
+  padding-top: 20px;
+}
+#fname{
+  font-size: 20px;
+  width:400px;
+  height:50px;
+}
+#subject{
+  width:400px;
+  height:300px;
+  font-size: 20px;
+  
+}
+textarea{
+  padding-top: 10px;
+  padding-left:10px;
+}
