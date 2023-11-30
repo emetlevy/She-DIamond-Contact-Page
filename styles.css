@@ -3,7 +3,7 @@
 }
 
 body{
-  background-image: url("logo.gif"),url("V.gif");
+  background-image: url("Logo.gif"),url("V.gif");
   background-size: 30%, cover, cover;
   background-position: center bottom 400px, top;
   background-repeat: no-repeat,repeat;
