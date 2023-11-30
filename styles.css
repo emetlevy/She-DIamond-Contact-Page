@@ -139,3 +139,13 @@ textarea{
   padding-top: 10px;
   padding-left:10px;
 }
+
+.Success{
+  text-align: center;
+  width: 100%;
+  color:rgb(66, 62, 62); 
+  margin: auto;
+  position: absolute;top:70px;
+  font-size: 80px;
+  opacity: 50%;
+}
