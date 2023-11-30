@@ -3,7 +3,7 @@
 }
 
 body{
-  background-image: url("Logo.gif"),url("Clouds.jpeg");
+  background-image: url("logo.gif"),url("clouds.jpeg");
   background-size: 30%, cover, cover;
   background-position: center bottom 400px, top;
   background-repeat: no-repeat,repeat;
@@ -57,7 +57,7 @@ transition-timing-function: linear;
 .Gallery:hover{
   transform: scale(1.05);
 }
-}
+
 .Merch{
   width:300px;
 }
@@ -121,18 +121,30 @@ a{
 
 }
 
-.formcontent{
-  padding-top: 20px;
-}
+
 #fname{
   font-size: 20px;
   width:400px;
   height:50px;
 }
+#email{
+  font-size: 20px;
+  width:400px;
+  height:50px;
+  margin-top: 10px;
+}
 #subject{
   width:400px;
   height:300px;
   font-size: 20px;
+  margin-top: 10px;
+  
+}
+
+#Send{
+  width:100px;
+  height:50px;
+  margin-top: 10px;
   
 }
 textarea{
@@ -149,3 +161,4 @@ textarea{
   font-size: 80px;
   opacity: 50%;
 }
+
